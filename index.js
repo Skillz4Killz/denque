@@ -3,7 +3,7 @@
 /**
  * Custom implementation of a double ended queue.
  */
-function Denque(array, options) {
+export function Denque(array, options) {
   var options = options || {};
 
   this._head = 0;
@@ -438,6 +438,3 @@ Denque.prototype._shrinkArray = function _shrinkArray() {
   this._list.length >>>= 1;
   this._capacityMask >>>= 1;
 };
-
-
-module.exports = Denque;
