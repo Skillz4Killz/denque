@@ -22,6 +22,9 @@ Double-ended queues can also be used as a:
 - [Stack](http://en.wikipedia.org/wiki/Stack_\(abstract_data_type\))
 - [Queue](http://en.wikipedia.org/wiki/Queue_\(data_structure\))
 
+DENO COMPATIBLE PORT FOR DENQUE
+
+
 This implementation is currently the fastest available, even faster than `double-ended-queue`, see the [benchmarks](#benchmarks)
 
 Every queue operation is done at a constant `O(1)` - including random access from `.peekAt(index)`.
